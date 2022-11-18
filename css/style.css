@@ -1,4 +1,6 @@
 /* CSS rest */
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,6 +44,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* CSS reset end */
+
+
+
+
+/* Navigation Bar start */
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -111,6 +120,10 @@ nav{
     z-index: 9;
 }
 
+/* Navigation bar end */
+
+
+/* Banner start */
 #banner{
     background: url(../images/img1.jpg);
     background-position: center;
@@ -178,9 +191,9 @@ nav{
     font-size: 35px;
     padding: 20px;
 }
+/* Banner end */
 
-
-
+/* About start */
 #about h1{
     font-size: 50px;
 
@@ -232,15 +245,21 @@ nav{
     z-index: 1;
     position: absolute;
 }
+#about h1{
+    font-size: 50px;
+
+}
+/* About end */
+
+/* Booking start */
+
+
 #booking{
     margin-top: 250px;
     text-align: center;
 }
 
-#about h1{
-    font-size: 50px;
 
-}
 .booking_content{
     padding-top: 60px;
     font-size: 25px;
@@ -275,6 +294,8 @@ nav{
 .mb-3{
     margin-top: 20px;
 }
+
+/* Booking end */
 #footer{
     background-color: grey;
     text-align: center;
